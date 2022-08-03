@@ -384,6 +384,11 @@ address{
     display: block;
 }
 
+.team-cos-item{fill: #AFB1B8;
+justify-content: center;}
+
+
+
 /* ----------------REGULAR_CUSTOMERS----------------- */
 
 .regular_customers{
