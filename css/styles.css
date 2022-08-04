@@ -538,7 +538,8 @@ address{
 
 .footer-after{
     width: 206px;
-    /* margin-top: 72px; */
+    padding-top: 12px;
+    padding-bottom: 100px;
 }
 
 .footer-after-title{
@@ -578,6 +579,8 @@ address{
 /* ----------------PAGE PORTFOLIO----------------- */
 
 /* ----------------HEADER PORTFOLIO----------------- */
+
+
 
 .filter-list{
     display: flex;
@@ -624,6 +627,7 @@ address{
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
 
 
 .portfolio-item:nth-child(3n){
