@@ -418,9 +418,9 @@ address{
     background-color: var(--button-active-color);
 }
 
-.team-soc-link:hover .team-cos-item,
-.team-soc-link:focus .team-cos-item{
-    fill:var(--hero-color)
+.team-soc-link:hover .team-soc-item,
+.team-soc-link:focus .team-soc-item{
+    fill:var(--hero-color);
 }
 
 /* ----------------REGULAR_CUSTOMERS----------------- */
@@ -506,9 +506,6 @@ address{
     color: var(--button-active-color);
 }
 
-.address-mail{
-    /* margin-bottom: 9px; */
-}
 
 .address-tel{
     margin-top: 0px;
@@ -530,10 +527,53 @@ address{
     color: var(--hero-color);
 }
 
+.footer-main{
+    display: flex;
+}
+
+.footer-pre{
+    width: 230;
+    margin-right: 30px;
+}
+
+.footer-after{
+    width: 206px;
+    /* margin-top: 72px; */
+}
+
+.footer-after-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var(--hero-color);
+}
+
 .footer-icons-list{
     display: flex;
-
+    justify-content: center;
+    gap: 10px;
 }
+
+.footer-icons-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons-link:hover,
+.footer-icons-link:focus{
+    background-color: var(--button-active-color);
+}
+
+
+.footer-icons-soc{fill: var(--hero-color);}
 
 /* ----------------PAGE PORTFOLIO----------------- */
 
