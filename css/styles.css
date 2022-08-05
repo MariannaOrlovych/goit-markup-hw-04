@@ -99,7 +99,7 @@ address{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 
 
@@ -452,7 +452,7 @@ address{
 
 .customer-item-example:hover,
 .customer-item-example:focus{
-    border-color;:var(--button-active-color)
+    border-color:var(--button-active-color)
 }
 
 .customer-item-example:hover .customer-icons,
@@ -589,7 +589,6 @@ address{
     background-color: var(--button-active-color);
 }
 
-
 .footer-icons-soc{fill: var(--hero-color);
 }
 
@@ -636,6 +635,15 @@ address{
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
+}
+
+.portfolio-cards-link{
+    display: block;
+}
+
+.portfolio-cards-link:hover,
+.portfolio-cards-link:focus{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-item{
