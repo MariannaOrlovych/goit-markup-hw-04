@@ -197,12 +197,9 @@ address{
     margin-left: 0; 
 }
 
-.header-icon-link{
+.header-icon{
     margin-right: 10px;
     fill: var(--primary-text-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .header-tel:hover,
@@ -212,7 +209,7 @@ address{
 
 .header-tel:hover .header-icon,
 .header-tel:focus .header-icon{
-    fill:currentColor;
+    fill:var(--button-active-color);
 }
 
 .header-mail {
