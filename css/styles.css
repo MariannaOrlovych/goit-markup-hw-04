@@ -185,7 +185,6 @@ address{
 }
 
 .header-tel {
-    width: 142px;
     height: 16px;
     font-weight: 500;
     font-size: 14px;
@@ -196,15 +195,12 @@ address{
     padding-bottom: 32px;
     margin-left: 0; 
     display: flex;
-   align-content: center;
-
+   align-items: baseline;
 }
 
 .header-icon{
     margin-right: 10px;
-    /* fill: var(--primary-text-color); */
     fill: currentColor;
-
 }
 
 .header-tel:hover,
